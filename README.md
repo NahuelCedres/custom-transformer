@@ -15,7 +15,7 @@ Index:
 
 I designed a custom version of a Transformer model based on the ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) paper. The implementation is organized into three main files:
 
-* low.py: Contains the implementations of `PositionalEncoding`, `Head`, `MultiHeadAttention`, and `FeedForward` modules.
+* [low.py](https://github.com/NahuelCedres/portfolio/blob/main/custom-transformer/low.py): Contains the implementations of `PositionalEncoding`, `Head`, `MultiHeadAttention`, and `FeedForward` modules.
     
     ```python
     ### Libraries ###
@@ -30,7 +30,7 @@ I designed a custom version of a Transformer model based on the ["Attention Is A
             ...
     ```
     
-* mid.py: Contains the implementations of the `Encoder` and `Decoder` modules.
+* [mid.py](https://github.com/NahuelCedres/portfolio/blob/main/custom-transformer/mid.py): Contains the implementations of the `Encoder` and `Decoder` modules.
     
     ```python
     import torch.nn as nn
@@ -79,7 +79,7 @@ I designed a custom version of a Transformer model based on the ["Attention Is A
             return x
     ```
     
-* high.py: Contains the complete Transformer model.
+* [high.py](https://github.com/NahuelCedres/portfolio/blob/main/custom-transformer/high.py): Contains the complete Transformer model.
     
     ```python
     class Transformer(nn.Module):
