@@ -1,7 +1,7 @@
 WELCOME! 🤖
 ===========
 
-Welcome to my repository! Here, you can explore some of the projects I have developed.
+Welcome to my repository! Here, you can explore one of my projects I have developed.
 If you have any questions, feel free to send an email to me at: nahuelcedres18@gmail.com
 
 
